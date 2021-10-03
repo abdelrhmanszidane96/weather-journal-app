@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body{
+    background: url(./img/shperes.PNG) no-repeat center center/ cover;
+    font-family:  sans-serif;
+    color: #ebebeb;
+}
+
+#app{
+    display: -ms-grid;
+    display: grid;
+    grid-auto-rows: minmax(8em, auto);
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 0.5em;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+}
+/* header */
+header {
+    padding: 2.5em;
+}
+
+h1 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+/* main */
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* output of weather app elements (entry)*/
+.entry {
+    background: rgba(60, 72, 111, 0.06);
+    margin-left: 1em;
+    width: 60%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #3c486f;
+    color: #fff;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+.entry span {
+    color: #3c6f50;
+}
+
+.entry p {
+    color: #9f6210;
+    padding: 0.5em;
+    width: 10em;
+    line-height: 2rem;
+    word-wrap: break-word;   
+}
+
+/*  Form elements */
+label{
+    display:block;
+    font-size: 1.4rem;
+    color: #ebebeb;
+    margin-top: 0.6em;
+}
+
+input{
+    display:block;
+    width: 10em;
+    background-color: rgba(159, 98, 16, 0.17);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 0.5em;
+    color: #ebebeb;
+
+}
+
+textarea{
+    background-color: rgba(159, 98, 16, 0.17);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    resize: none;
+    width: 13em;
+    height: 8em;
+    padding: 0.5em;
+    color: #ebebeb;
+}
+.holder.headline{
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    width: 6em;
+    height: 2em;
+    background: #9f6210;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    -webkit-box-shadow: 2px 4px 5px #444;
+            box-shadow: 2px 4px 5px #444;
+    margin-top: 0.75em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #92590d;
+}
+
+
+/* footer */
+footer {
+    font-size: 0.85rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+footer p {
+    text-align: center;
+}
+.proj-name {
+    color:#9f6210;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
