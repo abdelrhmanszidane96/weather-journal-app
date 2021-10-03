@@ -18,3 +18,4 @@ To get the project up and running I followed these steps:
 # What I used: 
 HTML, CSS, Javascript, node.
 
+![2](https://user-images.githubusercontent.com/91816795/135740623-2186febc-accb-49d2-bacd-8fc468abad11.PNG)
